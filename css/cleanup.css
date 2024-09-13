@@ -1,1 +1,64 @@
-/* write your override styles here */
+/* CSS Cleanup - Add necessary styles */
+
+/* Normalize basic styling for tags */
+body, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wall and tag container styling */
+#wall {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#wall div {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Specific tag styles */
+.tag-1 {
+  background-color: #ffcc00;
+  width: 100px;
+  height: 100px;
+}
+
+#tag-2 {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+}
+
+#tag-3.slick.wicked {
+  background-color: #00ccff;
+  width: 150px;
+  height: 150px;
+}
+
+#tag-4 {
+  background-color: #33cc33;
+  width: 180px;
+  height: 180px;
+}
+
+#tag-5.slick {
+  background-color: #9900cc;
+  width: 200px;
+  height: 200px;
+}
+
+#tag-6 {
+  background-color: #cc0000;
+  width: 220px;
+  height: 220px;
+}
+
+#tag-7.slick {
+  background-color: #0099cc;
+  width: 240px;
+  height: 240px;
+}
